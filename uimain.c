@@ -26,8 +26,12 @@ int main()
       break;
     case 'c':
       puts("You selected chars:");
-      for (char c = 'A'; c < 'D'; c++)
-	print_char_11x16(c);
+      /*for (char c = 'A'; c < 'D'; c++)
+	print_char_11x16(c);*/
+        print_char_8x12('D');
+	print_char_8x12('A');
+	print_char_8x12('R');
+	print_char_8x12('E');//prints out my initials
       break;
     case 'f':
       puts("You selected arrow");
